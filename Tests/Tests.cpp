@@ -117,7 +117,7 @@ void PriorityQueue_test (void)
         ++i;
     }
 
-    cout << "*msg"<< i << " = "<<(void *)msg->data << ", msg"<< i <<" = " << buffer->data << endl;
+   // cout << "*msg"<< i << " = "<<(void *)msg->data << ", msg"<< i <<" = " << buffer->data << endl;
 
 }
 

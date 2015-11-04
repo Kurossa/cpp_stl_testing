@@ -27,7 +27,7 @@ typedef class sBuffer
 {
 public:
     sBuffer() : data(NULL) {}
-    ~sBuffer() {delete data;}
+    ~sBuffer() {delete [] data;}
     char* data;    /* *< message data */
 
 } sBuffer_t;
